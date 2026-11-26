@@ -1,32 +1,5 @@
 return {
 	{
-		"andersonflima/pingu_ai_coding_pair_programming",
-		branch = "main",
-		init = function()
-			vim.g.pingu_open_window_on_start = 0
-			vim.g.pingu_terminal_strategy = "auto"
-			vim.g.pingu_realtime_on_change = 1
-			vim.g.pingu_realtime_insert_mode = 1
-			vim.g.pingu_realtime_on_cursor_hold = 1
-			vim.g.pingu_realtime_on_buf_enter = 1
-			vim.g.pingu_realtime_delay = 250
-			vim.g.pingu_auto_on_save = 1
-			vim.g.pingu_realtime_auto_fix_max_per_check = 3
-			vim.g.pingu_lsp_auto_fix_enabled = 1
-			vim.g.pingu_lsp_auto_fix_max_per_check = 5
-			vim.g.pingu_lsp_auto_fix_timeout_ms = 450
-			vim.g.pingu_lsp_auto_fix_max_severity = "warning"
-			vim.g.pingu_statusline_icon = ""
-			vim.g.pingu_action_menu_key = "<leader>pia"
-			vim.o.updatetime = 250
-			local ok, pingu_latest = pcall(require, "config.pingu_latest")
-			if ok then
-				pingu_latest.setup()
-			end
-		end,
-		lazy = false,
-	},
-	{
 		"danymat/neogen",
 		keys = {
 			{
