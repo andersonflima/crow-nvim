@@ -131,9 +131,6 @@ return {
 			sections = {
 
 				lualine_x = {
-					function()
-						return _G.PinguStatusline and _G.PinguStatusline() or ""
-					end,
 					"encoding",
 					"fileformat",
 					"filetype",

@@ -22,7 +22,7 @@ require("lazy").setup({
 			"LazyVim/LazyVim",
 			import = "lazyvim.plugins",
 			opts = {
-				colorscheme = "crowquill",
+				colorscheme = "crowquill-light",
 				news = {
 					lazyvim = true,
 					neovim = true,
